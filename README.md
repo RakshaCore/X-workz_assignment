@@ -1,2 +1,1 @@
-# Java-Class
-Xworkz Daily tasks 
+# GitSession
