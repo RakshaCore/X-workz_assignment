@@ -6,22 +6,27 @@ public class AILanguageTranslator extends Translator{
     }
     @Override
     public void detectLanguage() {
-        System.out.println("Detecting language of input text");
+        System.out.println(" Detecting language of input text");
     }
     @Override
     public void translateText() {
-        System.out.println("Translating text to the target language");
+        System.out.println(" Translating text to the target language");
     }
     @Override
     public void providePronunciation() {
-        System.out.println("Providing pronunciation for translated text");
+        System.out.println(" Providing pronunciation for translated text");
     }
     @Override
     public void suggestAlternativeWords() {
-        System.out.println("Suggesting alternative words for better meaning");
+        System.out.println(" Suggesting alternative words for better meaning");
     }
     @Override
     public void saveTranslationHistory() {
-        System.out.println("Saving translation history for future reference");
+        System.out.println("Saving  translation history for future reference");
+    }
+
+    public void askThusharKapoor()
+    {
+        System.out.println("A E I O U");
     }
 }

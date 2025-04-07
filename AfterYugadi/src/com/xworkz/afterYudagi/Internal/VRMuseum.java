@@ -7,22 +7,26 @@ public class VRMuseum extends Museum{
 
 @Override
     public void displayArtifacts() {
-        System.out.println("Displaying historical artifacts");
+        System.out.println("Displaying   historical artifacts");
     }
 @Override
     public void provideAudioGuide() {
-        System.out.println("Providing audio guide for exhibits");
+        System.out.println("Providing audio  guide for exhibits");
     }
 @Override
     public void offerInteractiveTours() {
-        System.out.println("Offering interactive tours");
+        System.out.println("Offering interactive  tours");
     }
 @Override
     public void hostLiveEvents() {
-        System.out.println("Hosting live museum events");
+        System.out.println("Hosting live museum  events");
     }
 @Override
     public void manageMemberships() {
-        System.out.println("Managing museum memberships");
+        System.out.println("Managing museum  memberships");
+    }
+    public void feedback()
+    {
+        System.out.println("Take feedback");
     }
 }

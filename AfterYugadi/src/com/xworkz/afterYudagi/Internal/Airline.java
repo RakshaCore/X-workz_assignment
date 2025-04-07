@@ -24,4 +24,5 @@ public class Airline {
     public void landPlane() {
         System.out.println("Airline is landing the plane");
     }
+
 }

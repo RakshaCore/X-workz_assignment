@@ -6,22 +6,26 @@ public class OnlineJobPortal extends JobPortal{
     }
     @Override
     public void postJob() {
-        System.out.println("JobPortal is posting a job");
+        System.out.println("Online-JobPortal is posting a job");
     }
 @Override
     public void searchJobs() {
-        System.out.println("JobPortal is searching for jobs");
+        System.out.println("Online-JobPortal is searching for jobs");
     }
 @Override
     public void applyForJob() {
-        System.out.println("JobPortal is applying for a job");
+        System.out.println("Online-JobPortal is applying for a job");
     }
 @Override
     public void scheduleInterview() {
-        System.out.println("JobPortal is scheduling an interview");
+        System.out.println("Online-JobPortal is scheduling an interview");
     }
 @Override
     public void offerJob() {
-        System.out.println("JobPortal is offering a job");
+        System.out.println("Online-JobPortal is offering a job");
+    }
+    public void signIn()
+    {
+        System.out.println("SignIN");
     }
 }

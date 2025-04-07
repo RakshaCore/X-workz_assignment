@@ -24,4 +24,5 @@ public class SmartMirror {
     public void playMusic() {
         System.out.println("Playing music based on user's mood");
     }
+
 }

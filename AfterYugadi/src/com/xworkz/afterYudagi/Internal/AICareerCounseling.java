@@ -6,22 +6,27 @@ public class AICareerCounseling extends CareerCounseling{
     }
 @Override
     public void assessSkills() {
-        System.out.println("Assessing user's skills and strengths");
+        System.out.println("Assessing user's  skills and strengths");
     }
 @Override
     public void suggestCareerPaths() {
-        System.out.println("Suggesting suitable career paths");
+        System.out.println("Suggesting  suitable career paths");
     }
 @Override
     public void provideTrainingResources() {
-        System.out.println("Providing relevant training resources");
+        System.out.println("Providing  relevant training resources");
     }
 @Override
     public void conductMockInterviews() {
-        System.out.println("Conducting mock interviews for practice");
+        System.out.println("Conducting  mock interviews for practice");
     }
 @Override
     public void trackCareerProgress() {
-        System.out.println("Tracking career progress over time");
+        System.out.println("Tracking  career progress over time");
+    }
+
+    public  void Career()
+    {
+        System.out.println("Get a Job");
     }
 }

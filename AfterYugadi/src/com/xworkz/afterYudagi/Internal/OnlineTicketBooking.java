@@ -24,4 +24,8 @@ public class OnlineTicketBooking extends TicketBooking{
     public void cancelBooking() {
         System.out.println("Online-TicketBooking is canceling a booking");
     }
+    public void rate()
+    {
+        System.out.println("Rate it in app");
+    }
 }

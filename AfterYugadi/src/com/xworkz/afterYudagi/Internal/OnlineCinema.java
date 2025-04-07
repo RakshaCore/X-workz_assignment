@@ -25,4 +25,8 @@ public class OnlineCinema extends Cinema {
     public void cancelTicket() {
         System.out.println("Cinema is canceling a ticket");
     }
+    public void location()
+    {
+        System.out.println("Location of ");
+    }
 }

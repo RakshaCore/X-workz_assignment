@@ -25,5 +25,9 @@ public class ElectricVehicle extends Vehicle{
         System.out.println("Vehicle is stopping the engine");
     }
 
+    public void trash()
+    {
+        System.out.println("Vehicle is trash");
+    }
 
 }

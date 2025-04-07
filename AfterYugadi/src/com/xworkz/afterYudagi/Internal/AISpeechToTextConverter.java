@@ -24,4 +24,8 @@ public class AISpeechToTextConverter extends  SpeechToText{
     public void saveTranscription() {
         System.out.println("Saving transcribed text file");
     }
+    public void convertor()
+    {
+        System.out.println("fdsyghj");
+    }
 }

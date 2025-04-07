@@ -24,4 +24,8 @@ public class AIPersonalDiary extends PersonalDiary{
     public void suggestReflections() {
         System.out.println("Suggesting reflections based on past experiences");
     }
+    public void rest()
+    {
+        System.out.println("Rest");
+    }
 }

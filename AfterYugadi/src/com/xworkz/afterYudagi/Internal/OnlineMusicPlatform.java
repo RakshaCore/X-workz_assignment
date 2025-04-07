@@ -6,22 +6,26 @@ public class OnlineMusicPlatform extends  MusicPlatform{
     }
     @Override
     public void uploadSong() {
-        System.out.println("Music platform is uploading a song");
+        System.out.println("Music  platform is uploading a song");
     }
     @Override
     public void createPlaylist() {
-        System.out.println("Music platform is creating a playlist");
+        System.out.println("Music  platform is creating a playlist");
     }
     @Override
     public void streamMusic() {
-        System.out.println("Music platform is streaming music");
+        System.out.println("Music  platform is streaming music");
     }
     @Override
     public void downloadMusic() {
-        System.out.println("Music platform is allowing music downloads");
+        System.out.println("Music  platform is allowing music downloads");
     }
     @Override
     public void recommendSongs() {
-        System.out.println("Music platform is recommending songs");
+        System.out.println("Music  platform is recommending songs");
+    }
+    public void listenSongs()
+    {
+        System.out.println("Yo Yo honey singhhhhhh");
     }
 }

@@ -6,22 +6,27 @@ public class AIResumeBuilder extends ResumeBuilder{
     }
 @Override
     public void collectUserDetails() {
-        System.out.println("Collecting user details for resume");
+        System.out.println("Collecting user  details for resume");
     }
 @Override
     public void formatResume() {
-        System.out.println("Formatting resume based on selected template");
+        System.out.println("Formatting resume  based on selected template");
     }
 @Override
     public void suggestSkills() {
-        System.out.println("Suggesting relevant skills for the job application");
+        System.out.println("Suggesting relevant  skills for the job application");
     }
 @Override
     public void analyzeJobTrends() {
-        System.out.println("Analyzing job market trends for resume optimization");
+        System.out.println("Analyzing job  market trends for resume optimization");
     }
 @Override
     public void generatePDF() {
-        System.out.println("Generating resume in PDF format");
+        System.out.println("Generating  resume in PDF format");
+    }
+
+    public  void ATSScore()
+    {
+        System.out.println("Score is .......");
     }
 }

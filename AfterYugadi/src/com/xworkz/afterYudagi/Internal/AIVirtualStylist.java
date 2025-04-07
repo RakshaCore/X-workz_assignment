@@ -6,22 +6,26 @@ public class AIVirtualStylist extends Stylist{
     }
 @Override
     public void suggestOutfits() {
-        System.out.println("Suggesting outfits based on occasion");
+        System.out.println("Suggesting  outfits based on occasion");
     }
 @Override
     public void matchAccessories() {
-        System.out.println("Matching accessories with outfit");
+        System.out.println("Matching  accessories with outfit");
     }
 @Override
     public void recommendHairstyle() {
-        System.out.println("Recommending hairstyle based on look");
+        System.out.println("Recommending  hairstyle based on look");
     }
 @Override
     public void provideFashionTrends() {
-        System.out.println("Providing latest fashion trends");
+        System.out.println("Providing  latest fashion trends");
     }
 @Override
     public void saveStylePreferences() {
-        System.out.println("Saving user style preferences");
+        System.out.println("Saving user  style preferences");
+    }
+    public  void model()
+    {
+        System.out.println("Get ready with urfi");
     }
 }

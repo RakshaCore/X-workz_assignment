@@ -24,4 +24,8 @@ public class AIBloodDonationManagement extends BloodDonation{
     public void notifyEmergencyRequests() {
         System.out.println("Notifying donors for emergency blood requests");
     }
+    public  void call()
+    {
+        System.out.println("Call");
+    }
 }

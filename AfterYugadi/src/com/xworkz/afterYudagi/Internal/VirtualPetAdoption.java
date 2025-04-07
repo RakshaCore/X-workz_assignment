@@ -24,4 +24,8 @@ public class VirtualPetAdoption extends PetAdoption{
     public void provideCareGuidelines() {
         System.out.println("Providing care guidelines for the adopted pet");
     }
+    public void nameit()
+    {
+        System.out.println("Sheru");
+    }
 }

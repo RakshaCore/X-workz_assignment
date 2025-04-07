@@ -7,23 +7,27 @@ public class OnlineFitnessTracker extends FitnessTracker{
         }
 @Override
     public void trackSteps() {
-        System.out.println("FitnessTracker is tracking steps");
+        System.out.println("Online FitnessTracker is tracking steps");
     }
 @Override
     public void measureHeartRate() {
-        System.out.println("FitnessTracker is measuring heart rate");
+        System.out.println("Online FitnessTracker is measuring heart rate");
     }
 @Override
     public void calculateCaloriesBurned() {
-        System.out.println("FitnessTracker is calculating calories burned");
+        System.out.println("Online FitnessTracker is calculating calories burned");
     }
 @Override
     public void monitorSleep() {
-        System.out.println("FitnessTracker is monitoring sleep patterns");
+        System.out.println("Online FitnessTracker is monitoring sleep patterns");
     }
 @Override
     public void generateWorkoutPlan() {
-        System.out.println("FitnessTracker is generating a workout plan");
+        System.out.println("Online FitnessTracker is generating a workout plan");
+    }
+    public void generateReport()
+    {
+        System.out.println("Here is ur plan");
     }
 
 }

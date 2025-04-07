@@ -6,22 +6,26 @@ public class OnlineFoodDelivery extends FoodDelivery{
     }
 @Override
     public void browseRestaurants() {
-        System.out.println("FoodDelivery is browsing available restaurants");
+        System.out.println("Online FoodDelivery is browsing available restaurants");
     }
 @Override
     public void placeOrder() {
-        System.out.println("FoodDelivery is placing an order");
+        System.out.println("Online FoodDelivery is placing an order");
     }
 @Override
     public void trackOrder() {
-        System.out.println("FoodDelivery is tracking the order");
+        System.out.println("Online FoodDelivery is tracking the order");
     }
 @Override
     public void makePayment() {
-        System.out.println("FoodDelivery is processing payment");
+        System.out.println("Online FoodDelivery is processing payment");
     }
 @Override
     public void provideFeedback() {
-        System.out.println("FoodDelivery is collecting customer feedback");
+        System.out.println("Online FoodDelivery is collecting customer feedback");
+    }
+    public void eat()
+    {
+        System.out.println("Yum Yum");
     }
 }

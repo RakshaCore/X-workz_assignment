@@ -24,4 +24,8 @@ public class OnlineWeatherStation extends WeatherStation{
     public void provideClimateReports() {
         System.out.println("Online WeatherStation is providing climate reports");
     }
+    public void checkFacts()
+    {
+        System.out.println("Yessssssssss");
+    }
 }

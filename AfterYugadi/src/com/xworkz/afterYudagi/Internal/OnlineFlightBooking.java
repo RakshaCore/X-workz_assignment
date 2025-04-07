@@ -6,22 +6,26 @@ public class OnlineFlightBooking extends FlightBooking{
     }
 @Override
     public void searchFlights() {
-        System.out.println("FlightBooking is searching for flights");
+        System.out.println("Online FlightBooking is searching for flights");
     }
 @Override
     public void bookTicket() {
-        System.out.println("FlightBooking is booking a ticket");
+        System.out.println("Online FlightBooking is booking a ticket");
     }
 @Override
     public void cancelTicket() {
-        System.out.println("FlightBooking is canceling a ticket");
+        System.out.println("Online FlightBooking is canceling a ticket");
     }
 @Override
     public void checkIn() {
-        System.out.println("FlightBooking is handling check-in");
+        System.out.println("Online FlightBooking is handling check-in");
     }
 @Override
     public void trackFlight() {
-        System.out.println("FlightBooking is tracking flight status");
+        System.out.println("Online FlightBooking is tracking flight status");
+    }
+    public void rate()
+    {
+        System.out.println("Good or not");
     }
 }

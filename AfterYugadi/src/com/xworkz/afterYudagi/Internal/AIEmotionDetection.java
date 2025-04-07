@@ -24,4 +24,8 @@ public class AIEmotionDetection extends EmotionDetection{
     public void suggestMoodImprovement() {
         System.out.println("Suggesting activities to improve mood");
     }
+    public void plzsleep()
+    {
+        System.out.println("Sleep bro its 3.30");
+    }
 }

@@ -1,6 +1,7 @@
 package com.xworkz.afterYudagi.Runner;
 
 import com.xworkz.afterYudagi.Internal.*;
+import com.xworkz.afterYudagi.MondayTask.*;
 
 public class MainRunner {
 
@@ -1111,6 +1112,11 @@ public class MainRunner {
         onlineAirline.serveMeals();
         onlineAirline.landPlane();
 
+        System.out.println("Monday");
+        Emrates emrates=new Emrates();
+        emrates.runAirline(airline);
+        emrates.runAirline(onlineAirline);
+
         System.out.println("-----------------------------52-------------------------------------");
 
         Hotel hotel = new Hotel();
@@ -1133,6 +1139,11 @@ public class MainRunner {
         onlineHotel.provideCleaning();
         onlineHotel.handleCheckOut();
         onlineHotel.manageAmenities();
+
+        System.out.println("Monday");
+        NewHotel newHotel= new NewHotel();
+        newHotel.hotelhandle(hotel);
+        newHotel.hotelhandle(onlineHotel);
 
         System.out.println("-----------------------------53-------------------------------------");
 
@@ -1157,6 +1168,11 @@ public class MainRunner {
         onlineLibrary.manageMembers();
         onlineLibrary.maintainCatalog();
 
+        System.out.println("Monday");
+        CBLibrary cbLibrary=new CBLibrary();
+        cbLibrary.visitLib(library);
+        cbLibrary.visitLib(onlineLibrary);
+
         System.out.println("-----------------------------54--------------------------------------");
 
         MusicPlatform musicPlatform = new MusicPlatform();
@@ -1180,6 +1196,11 @@ public class MainRunner {
         onlineMusicPlatform.downloadMusic();
         onlineMusicPlatform.recommendSongs();
 
+        System.out.println("Monday");
+        Spotify spotify=new Spotify();
+        spotify.useSpotify(musicPlatform);
+        spotify.useSpotify(onlineMusicPlatform);
+
         System.out.println("-----------------------------55--------------------------------------");
 
         RealEstate realEstate = new RealEstate();
@@ -1202,6 +1223,12 @@ public class MainRunner {
         onlineRealEstate.processSale();
         onlineRealEstate.signContract();
         onlineRealEstate.manageRental();
+
+        System.out.println("Monday");
+        Rent rent=new Rent();
+        rent.takeRent(realEstate);
+        rent.takeRent(onlineRealEstate);
+
         System.out.println("-----------------------------56--------------------------------------");
 
         RecruitmentAgency recruitmentAgency = new RecruitmentAgency();
@@ -1224,6 +1251,11 @@ public class MainRunner {
         onlineRecruitmentAgency.conductInterview();
         onlineRecruitmentAgency.offerJob();
         onlineRecruitmentAgency.manageCandidates();
+
+        System.out.println("Monday");
+        LinkedIn linkedIn=new LinkedIn();
+        linkedIn.useLinedIn(recruitmentAgency);
+        linkedIn.useLinedIn(onlineRecruitmentAgency);
 
         System.out.println("-----------------------------57-------------------------------------");
 
@@ -1248,6 +1280,11 @@ public class MainRunner {
         electricVehicle.refuel();
         electricVehicle.stopEngine();
 
+        System.out.println("Monday");
+        UseVehicle useVehicle=new UseVehicle();
+        useVehicle.service(vehicle);
+        useVehicle.service(electricVehicle);
+
         System.out.println("-----------------------------58--------------------------------------");
 
         Hospital hospital = new Hospital();
@@ -1270,6 +1307,11 @@ public class MainRunner {
         onlineHospital.dispenseMedicine();
         onlineHospital.provideCheckup();
         onlineHospital.generateReport();
+
+        System.out.println("Monday");
+        Nimhans nimhans=new Nimhans();
+        nimhans.getSomeHelp(hospital);
+        nimhans.getSomeHelp(onlineHospital);
 
         System.out.println("-----------------------------59--------------------------------------");
 
@@ -1294,6 +1336,11 @@ public class MainRunner {
         onlineLogistics.deliverPackage();
         onlineLogistics.handleReturns();
 
+        System.out.println("Monday");
+        LogisticsPlan logisticsPlan=new LogisticsPlan();
+        logisticsPlan.plan(logistics);
+        logisticsPlan.plan(onlineLogistics);
+
         System.out.println("-----------------------------60--------------------------------------");
 
         ECommerce ecommerce = new ECommerce();
@@ -1316,6 +1363,11 @@ public class MainRunner {
         onlineECommerce.checkout();
         onlineECommerce.makePayment();
         onlineECommerce.trackOrder();
+        System.out.println("Monday");
+        Flipkart flipkart=new Flipkart();
+        flipkart.use(ecommerce);
+        flipkart.use(onlineECommerce);
+
 
         System.out.println("-----------------------------61--------------------------------------");
 
@@ -1339,6 +1391,10 @@ public class MainRunner {
         onlineCinema.selectSeats();
         onlineCinema.sellSnacks();
         onlineCinema.cancelTicket();
+        System.out.println("Monday");
+        PVR pvr=new PVR();
+        pvr.checkOut(cinema);
+        pvr.checkOut(onlineCinema);
 
         System.out.println("-----------------------------62--------------------------------------");
 
@@ -1362,6 +1418,10 @@ public class MainRunner {
         onlineFactory.packageItem();
         onlineFactory.shipItem();
         onlineFactory.maintainEquipment();
+        System.out.println("Monday");
+        SomeFactory someFactory=new SomeFactory();
+        someFactory.runFactory(factory);
+        someFactory.runFactory(onlineFactory);
 
         System.out.println("-----------------------------63--------------------------------------");
 
@@ -1385,6 +1445,10 @@ public class MainRunner {
         onlineWeatherStation.generateForecast();
         onlineWeatherStation.issueWarnings();
         onlineWeatherStation.provideClimateReports();
+        System.out.println("Monday");
+        PredictWeather predictWeather=new PredictWeather();
+        predictWeather.Weather(weatherStation);
+        predictWeather.Weather(onlineWeatherStation);
 
         System.out.println("-------------------------------64------------------------------------");
         RideSharing rideSharing = new RideSharing();
@@ -1407,6 +1471,11 @@ public class MainRunner {
         onlineRideSharing.trackRide();
         onlineRideSharing.calculateFare();
         onlineRideSharing.giveRating();
+        System.out.println("Monday");
+        RapidoBro rapidoBro=new RapidoBro();
+        rapidoBro.rapidokaro(rideSharing);
+        rapidoBro.rapidokaro(onlineRideSharing);
+
 
         System.out.println("-----------------------------65-------------------------------------");
 
@@ -1430,6 +1499,10 @@ public class MainRunner {
         onlineGroceryStore.processPayment();
         onlineGroceryStore.deliverOrder();
         onlineGroceryStore.handleReturns();
+        System.out.println("Monday");
+        BlinkIt blinkIt=new BlinkIt();
+        blinkIt.Blinkitkaro(groceryStore);
+        blinkIt.Blinkitkaro(onlineGroceryStore);
 
         System.out.println("-----------------------------66-------------------------------------");
 
@@ -1453,6 +1526,11 @@ public class MainRunner {
         onlineJobPortal.applyForJob();
         onlineJobPortal.scheduleInterview();
         onlineJobPortal.offerJob();
+        System.out.println("Monday");
+        Naukri naukri=new Naukri();
+        naukri.signIn(jobPortal);
+        naukri.signIn(onlineJobPortal);
+
 
         System.out.println("-----------------------------67--------------------------------------");
 
@@ -1476,6 +1554,10 @@ public class MainRunner {
         onlineFlightBooking.cancelTicket();
         onlineFlightBooking.checkIn();
         onlineFlightBooking.trackFlight();
+        System.out.println("Monday");
+        MakeMyTrip makeMyTrip=new MakeMyTrip();
+        makeMyTrip.book(flightBooking);
+        makeMyTrip.book(onlineFlightBooking);
 
         System.out.println("-----------------------------68--------------------------------------");
 
@@ -1499,6 +1581,11 @@ public class MainRunner {
         onlineFitnessTracker.calculateCaloriesBurned();
         onlineFitnessTracker.monitorSleep();
         onlineFitnessTracker.generateWorkoutPlan();
+        System.out.println("Monday");
+        BoatCrest boatCrest=new BoatCrest();
+        boatCrest.health(fitnessTracker);
+        boatCrest.health(onlineFitnessTracker);
+
 
         System.out.println("-----------------------------69--------------------------------------");
 
@@ -1522,6 +1609,10 @@ public class MainRunner {
         onlineSmartHome.lockDoors();
         onlineSmartHome.controlCameras();
         onlineSmartHome.playMusic();
+        System.out.println("Monday");
+        HomeSmartHome homeSmartHome=new HomeSmartHome();
+        homeSmartHome.operate(smartHome);
+        homeSmartHome.operate(onlineSmartHome);
 
         System.out.println("-----------------------------70--------------------------------------");
 
@@ -1545,6 +1636,12 @@ public class MainRunner {
         onlineLearningPlatform.takeQuiz();
         onlineLearningPlatform.submitAssignment();
         onlineLearningPlatform.issueCertificate();
+        System.out.println("Monday");
+        Coursera coursera=new Coursera();
+        coursera.signUp(learningPlatform);
+        coursera.signUp(onlineLearningPlatform);
+
+
         System.out.println("-----------------------------71--------------------------------------");
 
         TicketBooking ticketBooking = new TicketBooking();
@@ -1567,6 +1664,10 @@ public class MainRunner {
         onlineTicketBooking.makePayment();
         onlineTicketBooking.generateTicket();
         onlineTicketBooking.cancelBooking();
+        System.out.println("Monday");
+        Ixigo ixigo=new Ixigo();
+        ixigo.download(ticketBooking);
+        ixigo.download(onlineTicketBooking);
 
         System.out.println("-----------------------------72--------------------------------------");
 
@@ -1590,6 +1691,10 @@ public class MainRunner {
         onlineFoodDelivery.trackOrder();
         onlineFoodDelivery.makePayment();
         onlineFoodDelivery.provideFeedback();
+        System.out.println("Monday");
+        Zomata zomata=new Zomata();
+        zomata.delivery(foodDelivery);
+        zomata.delivery(onlineFoodDelivery);
 
         System.out.println("-----------------------------73--------------------------------------");
 
@@ -1613,6 +1718,10 @@ public class MainRunner {
         onlineStreamingService.pauseMovie();
         onlineStreamingService.adjustQuality();
         onlineStreamingService.recommendMovies();
+        System.out.println("Monday");
+        Netflix netflix=new Netflix();
+        netflix.download(streamingService);
+        netflix.download(onlineStreamingService);
 
         System.out.println("-----------------------------74-------------------------------------");
 
@@ -1636,6 +1745,11 @@ public class MainRunner {
         onlineAlert2.notifyAuthorities();
         onlineAlert2.provideGuidance();
         onlineAlert2.logIncident();
+        System.out.println("Monday");
+        OEA oea =new OEA();
+        oea.emergency(alert);
+        oea.emergency(onlineAlert2);
+
 
         System.out.println("-----------------------------75--------------------------------------");
 
@@ -1659,6 +1773,10 @@ public class MainRunner {
         onlineParking2.processPayment();
         onlineParking2.generateTicket();
         onlineParking2.releaseSpot();
+        System.out.println("Monday");
+        OnlineParkingKarle onlineParkingKarle=new OnlineParkingKarle();
+        onlineParkingKarle.parkBro(parking);
+        onlineParkingKarle.parkBro(onlineParking1);
 
         System.out.println("-----------------------------76--------------------------------------");
 
@@ -1682,6 +1800,10 @@ public class MainRunner {
         aiRecognition2.compareWithDatabase();
         aiRecognition2.grantAccess();
         aiRecognition2.logEntry();
+        System.out.println("Monday");
+        FaceUnlock faceUnlock=new FaceUnlock();
+        faceUnlock.phoneUnlock(recognition);
+        faceUnlock.phoneUnlock(aiRecognition1);
 
         System.out.println("-----------------------------77--------------------------------------");
 
@@ -1705,6 +1827,11 @@ public class MainRunner {
         onlineCounseling2.assessMentalHealth();
         onlineCounseling2.suggestExercises();
         onlineCounseling2.recordSessionNotes();
+        System.out.println("Monday");
+        OCitseems oCitseems=new OCitseems();
+        oCitseems.goSeekHelp(counseling);
+        oCitseems.goSeekHelp(onlineCounseling1);
+
 
         System.out.println("-----------------------------78--------------------------------------");
 
@@ -1728,6 +1855,10 @@ public class MainRunner {
         aiTranslator2.providePronunciation();
         aiTranslator2.suggestAlternativeWords();
         aiTranslator2.saveTranslationHistory();
+        System.out.println("Monday");
+        ThusharKapoor thusharKapoor=new ThusharKapoor();
+        thusharKapoor.translator(translator);
+        thusharKapoor.translator(aiTranslator1);
 
         System.out.println("-----------------------------79--------------------------------------");
 
@@ -1751,6 +1882,10 @@ public class MainRunner {
         aiStylist2.recommendHairstyle();
         aiStylist2.provideFashionTrends();
         aiStylist2.saveStylePreferences();
+        System.out.println("Monday");
+        BellaHadid bellaHadid=new BellaHadid();
+        bellaHadid.modelbro(stylist);
+        bellaHadid.modelbro(aiStylist1);
 
         System.out.println("-----------------------------80--------------------------------------");
 
@@ -1774,6 +1909,10 @@ public class MainRunner {
         onlineMeditation2.provideRelaxingMusic();
         onlineMeditation2.giveBreathingExercises();
         onlineMeditation2.saveUserPreferences();
+        System.out.println("Monday");
+        Sadguru sadguru=new Sadguru();
+        sadguru.guideMeditation(meditation);
+        sadguru.guideMeditation(onlineMeditation1);
 
         System.out.println("-----------------------------81--------------------------------------");
 
@@ -1797,6 +1936,10 @@ public class MainRunner {
         aiStock2.predictFuturePrices();
         aiStock2.provideInvestmentAdvice();
         aiStock2.saveTransactionHistory();
+        System.out.println("Monday");
+        AIStockPredict aiStockPredict=new AIStockPredict();
+        aiStockPredict.predict(stockMarket);
+        aiStockPredict.predict(aiStock1);
 
         System.out.println("-----------------------------82--------------------------------------");
 
@@ -1820,6 +1963,10 @@ public class MainRunner {
         digitalWallet2.checkBalance();
         digitalWallet2.viewTransactionHistory();
         digitalWallet2.applyDiscounts();
+        System.out.println("Monday");
+        Gpay gpay=new Gpay();
+        gpay.app(wallet);
+        gpay.app(digitalWallet1);
 
         System.out.println("-----------------------------83-------------------------------------");
 
@@ -1843,6 +1990,11 @@ public class MainRunner {
         onlineTax2.generateTaxReport();
         onlineTax2.processPayment();
         onlineTax2.fileReturn();
+        System.out.println("Monday");
+        TaxKaao taxKaao=new TaxKaao();
+        taxKaao.Tax(tax);
+        taxKaao.Tax(onlineTax1);
+
 
         System.out.println("-----------------------------84--------------------------------------");
 
@@ -1866,6 +2018,10 @@ public class MainRunner {
         aiScanner2.rankCandidates();
         aiScanner2.highlightSkills();
         aiScanner2.generateReport();
+        System.out.println("Monday");
+        ResumeScan resumeScan=new ResumeScan();
+        resumeScan.resumeChecker(scanner);
+        resumeScan.resumeChecker(aiScanner1);
 
         System.out.println("-----------------------------85------------------------------------");
 
@@ -1889,6 +2045,10 @@ public class MainRunner {
         aiCounseling2.provideTrainingResources();
         aiCounseling2.conductMockInterviews();
         aiCounseling2.trackCareerProgress();
+        System.out.println("Monday");
+        SetUrCareer setUrCareer=new SetUrCareer();
+        setUrCareer.career(counseling101);
+        setUrCareer.career(aiCounseling1);
 
         System.out.println("-----------------------------86--------------------------------------");
 
@@ -1912,6 +2072,10 @@ public class MainRunner {
         vrMuseum2.offerInteractiveTours();
         vrMuseum2.hostLiveEvents();
         vrMuseum2.manageMemberships();
+        System.out.println("Monday");
+        NewVRMuseum newVRMuseum=new NewVRMuseum();
+        newVRMuseum.checkoutMuseum(museum);
+        newVRMuseum.checkoutMuseum(vrMuseum1);
 
         System.out.println("-----------------------------87--------------------------------------");
 
@@ -1935,6 +2099,11 @@ public class MainRunner {
         aiEmotion2.interpretTextSentiment();
         aiEmotion2.generateEmotionReports();
         aiEmotion2.suggestMoodImprovement();
+        System.out.println("Monday");
+        EmotionDetectionS emotionDetectionS=new EmotionDetectionS();
+        emotionDetectionS.heartless(detection);
+        emotionDetectionS.heartless(aiEmotion1);
+
 
         System.out.println("-----------------------------88--------------------------------------");
 
@@ -1958,6 +2127,10 @@ public class MainRunner {
         aiSentiment2.classifyPublicOpinions();
         aiSentiment2.generateSentimentReports();
         aiSentiment2.predictElectionOutcomes();
+        System.out.println("Monday");
+        Government government=new Government();
+        government.Abikhgayiye(sentiment);
+        government.Abikhgayiye(aiSentiment1);
 
         System.out.println("----------------------------89--------------------------------------");
 
@@ -1981,7 +2154,10 @@ public class MainRunner {
         aiSpeech2.detectLanguage();
         aiSpeech2.applyPunctuation();
         aiSpeech2.saveTranscription();
-
+        System.out.println("Monday");
+        SpeechToTextConverter speechToTextConverter=new SpeechToTextConverter();
+        speechToTextConverter.Converter(speech);
+        speechToTextConverter.Converter(aiSpeech1);
 
         System.out.println("-----------------------------90--------------------------------------");
 
@@ -2005,6 +2181,11 @@ public class MainRunner {
         aiViolation2.identifyRedLightViolations();
         aiViolation2.issueFines();
         aiViolation2.generateViolationReports();
+        System.out.println("Monday");
+        TrafficPolice trafficPolice=new TrafficPolice();
+        trafficPolice.check(violation);
+        trafficPolice.check(aiViolation1);
+
 
         System.out.println("-----------------------------91--------------------------------------");
 
@@ -2028,6 +2209,10 @@ public class MainRunner {
         aiDonation2.scheduleDonation();
         aiDonation2.trackBloodInventory();
         aiDonation2.notifyEmergencyRequests();
+        System.out.println("Monday");
+        Khoon khoon=new Khoon();
+        khoon.Blood(donation);
+        khoon.Blood(aiDonation1);
 
         System.out.println("-----------------------------92--------------------------------------");
 
@@ -2051,6 +2236,10 @@ public class MainRunner {
         aiDesign2.recommendColorSchemes();
         aiDesign2.generate3DVisualization();
         aiDesign2.provideBudgetEstimation();
+        System.out.println("Monday");
+        Designer designer=new Designer();
+        designer.almostDone(design);
+        designer.almostDone(aiDesign1);
 
         System.out.println("-----------------------------93--------------------------------------");
 
@@ -2074,6 +2263,10 @@ public class MainRunner {
         aiDiary2.analyzeMoodTrends();
         aiDiary2.encryptEntries();
         aiDiary2.suggestReflections();
+        System.out.println("Monday");
+        Diary diary1=new Diary();
+        diary1.readDiary(diary);
+        diary1.readDiary(aiDiary1);
 
         System.out.println("-----------------------------94--------------------------------------");
 
@@ -2097,6 +2290,10 @@ public class MainRunner {
         aiMirror2.analyzeSkinCondition();
         aiMirror2.suggestOutfits();
         aiMirror2.playMusic();
+        System.out.println("Monday");
+        Mirror mirror1=new Mirror();
+        mirror1.useMirrior(mirror);
+        mirror1.useMirrior(aiMirror1);
 
         System.out.println("-----------------------------95-------------------------------------");
 
@@ -2120,6 +2317,10 @@ public class MainRunner {
         virtualAdoption2.scheduleMeetAndGreet();
         virtualAdoption2.finalizeAdoption();
         virtualAdoption2.provideCareGuidelines();
+        System.out.println("Monday");
+        Sheru sheru=new Sheru();
+        sheru.dog(adoption);
+        sheru.dog(virtualAdoption1);
 
         System.out.println("-----------------------------96---------------------------------");
 
@@ -2143,6 +2344,10 @@ public class MainRunner {
         aiVerification2.checkSourceCredibility();
         aiVerification2.flagFakeNews();
         aiVerification2.generateVerificationReports();
+        System.out.println("Monday");
+        News news=new News();
+        news.checkAuthencity(verification);
+        news.checkAuthencity(aiVerification1);
 
         System.out.println("-----------------------------97--------------------------------------");
 
@@ -2166,6 +2371,10 @@ public class MainRunner {
         aiAssistant2.analyzeShoppingTrends();
         aiAssistant2.provideDiscountAlerts();
         aiAssistant2.offerPersonalizedSuggestions();
+        System.out.println("Monday");
+        AmazonBot amazonBot=new AmazonBot();
+        amazonBot.useBot(assistant);
+        amazonBot.useBot(aiAssistant1);
 
         System.out.println("-----------------------------98--------------------------------------");
 
@@ -2189,6 +2398,10 @@ public class MainRunner {
         aiSecurity2.preventAttacks();
         aiSecurity2.conductVulnerabilityAssessments();
         aiSecurity2.generateSecurityReports();
+        System.out.println("Monday");
+        CyberSecurityCS cyberSecurityCS=new CyberSecurityCS();
+        cyberSecurityCS.protect(security);
+        cyberSecurityCS.protect(aiSecurity1);
 
         System.out.println("-----------------------------99-------------------------------------");
 
@@ -2212,6 +2425,10 @@ public class MainRunner {
         aiResume2.suggestSkills();
         aiResume2.analyzeJobTrends();
         aiResume2.generatePDF();
+        System.out.println("Monday");
+        AIResume aiResume=new AIResume();
+        aiResume.resumeBuilt(resume);
+        aiResume.resumeBuilt(aiResume1);
 
         System.out.println("-----------------------------100-------------------------------------");
 
@@ -2235,6 +2452,10 @@ public class MainRunner {
         smartWaste2.categorizeWaste();
         smartWaste2.monitorRecyclingEfforts();
         smartWaste2.alertForOverfilledBins();
+        System.out.println("Monday");
+        SmartWasteMgmt smartWasteMgmt=new SmartWasteMgmt();
+        smartWasteMgmt.wastedekhna(waste);
+        smartWasteMgmt.wastedekhna(smartWaste1);
 
     }
 

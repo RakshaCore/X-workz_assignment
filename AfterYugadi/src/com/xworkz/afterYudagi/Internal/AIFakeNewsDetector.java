@@ -7,22 +7,26 @@ public class AIFakeNewsDetector extends NewsVerification
     }
     @Override
     public void fetchNewsArticles() {
-        System.out.println("Fetching latest news articles");
+        System.out.println("Fetching latest news  articles");
     }
     @Override
     public void analyzeArticleContent() {
-        System.out.println("Analyzing the content of news articles");
+        System.out.println("Analyzing the content of  news articles");
     }
     @Override
     public void checkSourceCredibility() {
-        System.out.println("Checking credibility of news sources");
+        System.out.println("Checking credibility of  news sources");
     }
     @Override
     public void flagFakeNews() {
-        System.out.println("Flagging potential fake news articles");
+        System.out.println("Flagging potential fake news  articles");
     }
     @Override
     public void generateVerificationReports() {
-        System.out.println("Generating news verification reports");
+        System.out.println("Generating news verification  reports");
+    }
+    public void destroy()
+    {
+        System.out.println("Hello");
     }
 }

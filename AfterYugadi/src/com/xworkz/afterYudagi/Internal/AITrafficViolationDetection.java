@@ -24,4 +24,8 @@ public class AITrafficViolationDetection extends  TrafficViolation{
     public void generateViolationReports() {
         System.out.println("Generating detailed violation reports");
     }
+    public void police()
+    {
+        System.out.println("A G Polis aa gayi Polisss");
+    }
 }

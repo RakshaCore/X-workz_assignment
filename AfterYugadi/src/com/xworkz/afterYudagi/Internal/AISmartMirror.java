@@ -24,4 +24,8 @@ public class AISmartMirror extends SmartMirror{
     public void playMusic() {
         System.out.println("Playing music based on user's mood");
     }
+    public void breakit()
+    {
+        System.out.println("sfdvfjsdgfsgi");
+    }
 }

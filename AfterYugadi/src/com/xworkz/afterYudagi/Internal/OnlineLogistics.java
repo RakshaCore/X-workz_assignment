@@ -6,22 +6,27 @@ public class OnlineLogistics extends Logistics{
     }
 @Override
     public void receiveOrder() {
-        System.out.println("Logistics is receiving an order");
+        System.out.println("Logistics  is receiving an order");
     }
 @Override
     public void processShipment() {
-        System.out.println("Logistics is processing the shipment");
+        System.out.println("Logistics   is processing the shipment");
     }
 @Override
     public void trackPackage() {
-        System.out.println("Logistics is tracking the package");
+        System.out.println("Logistics  is tracking the package");
     }
 @Override
     public void deliverPackage() {
-        System.out.println("Logistics is delivering the package");
+        System.out.println("Logistics  is delivering the package");
     }
 @Override
     public void handleReturns() {
-        System.out.println("Logistics is handling returned packages");
+        System.out.println("Logistics  is handling returned packages");
     }
+    public  void feedback()
+    {
+        System.out.println("Feedback : Good");
+    }
+
 }

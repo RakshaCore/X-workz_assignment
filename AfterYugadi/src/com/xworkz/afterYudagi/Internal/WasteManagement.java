@@ -24,4 +24,5 @@ public class WasteManagement {
     public void alertForOverfilledBins() {
         System.out.println("Sending alerts for overflowing garbage bins");
     }
+
 }

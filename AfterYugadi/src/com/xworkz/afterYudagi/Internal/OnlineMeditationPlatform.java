@@ -6,22 +6,25 @@ public class OnlineMeditationPlatform extends MeditationPlatform{
     }
     @Override
     public void offerGuidedSessions() {
-        System.out.println("Offering guided meditation sessions");
+        System.out.println("Offering guided meditation  sessions");
     }
     @Override
     public void trackUserProgress() {
-        System.out.println("Tracking user's meditation progress");
+        System.out.println("Tracking user's meditation  progress");
     }
     @Override
     public void provideRelaxingMusic() {
-        System.out.println("Providing relaxing music for meditation");
+        System.out.println("Providing relaxing  music for meditation");
     }
     @Override
     public void giveBreathingExercises() {
-        System.out.println("Giving breathing exercises for relaxation");
+        System.out.println("Giving breathing  exercises for relaxation");
     }
     @Override
     public void saveUserPreferences() {
-        System.out.println("Saving user meditation preferences");
+        System.out.println("Saving user  meditation preferences");
+    }
+    public void unlockPremiumFeatures() {
+        System.out.println("Unlocking premium meditation features");
     }
 }

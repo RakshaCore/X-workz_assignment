@@ -28,4 +28,9 @@ public class AIVirtualInteriorDesigner extends InteriorDesign {
     public void provideBudgetEstimation() {
         System.out.println("Providing a cost estimation for the interior design");
     }
+
+    public void design()
+    {
+        System.out.println("Damn ");
+    }
 }

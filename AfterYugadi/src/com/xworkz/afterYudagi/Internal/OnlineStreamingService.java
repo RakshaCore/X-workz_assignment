@@ -6,22 +6,26 @@ public class OnlineStreamingService extends StreamingService {
     }
     @Override
     public void browseMovies() {
-        System.out.println("StreamingService is browsing movies");
+        System.out.println("StreamingService  is browsing movies");
     }
     @Override
     public void playMovie() {
-        System.out.println("StreamingService is playing a movie");
+        System.out.println("StreamingService  is playing a movie");
     }
     @Override
     public void pauseMovie() {
-        System.out.println("StreamingService is pausing a movie");
+        System.out.println("StreamingService  is pausing a movie");
     }
     @Override
     public void adjustQuality() {
-        System.out.println("StreamingService is adjusting video quality");
+        System.out.println("StreamingService  is adjusting video quality");
     }
     @Override
     public void recommendMovies() {
-        System.out.println("StreamingService is recommending movies");
+        System.out.println("StreamingService  is recommending movies");
+    }
+    public void feedback()
+    {
+        System.out.println("Feedback");
     }
 }
