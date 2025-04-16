@@ -306,6 +306,156 @@ public class Runner {
         apple.getFruitColor();
         apple.getFruitTaste();
 
+        System.out.println("------------------------51------------------------");
+        Carrot carrot = new Carrot();
+        carrot.getVegetableName();
+        carrot.getVegetableColor();
+        carrot.getVegetableTaste();
+
+        System.out.println("------------------------52------------------------");
+        OfficeChair officeChair = new OfficeChair();
+        officeChair.move();
+        officeChair.rotate();
+        officeChair.adjustHeight();
+
+        System.out.println("------------------------53------------------------");
+        BookReader bookReader = new BookReader();
+        bookReader.write();
+        bookReader.edit();
+        bookReader.publish();
+
+        System.out.println("------------------------54------------------------");
+        SmartWatch smartWatch = new SmartWatch();
+        smartWatch.setAlarm();
+        smartWatch.showTime();
+        smartWatch.trackSteps();
+
+        System.out.println("------------------------55------------------------");
+        HB2Pencil hb2Pencil = new HB2Pencil();
+        hb2Pencil.draw();
+        hb2Pencil.erase();
+        hb2Pencil.sharpen();
+
+        System.out.println("------------------------56------------------------");
+        BlackPen blackPen = new BlackPen();
+        blackPen.draw();
+        blackPen.refill();
+        blackPen.write();
+
+        System.out.println("------------------------57------------------------");
+        TextBook textBook = new TextBook();
+        textBook.publish();
+        textBook.write();
+        textBook.read();
+
+        System.out.println("------------------------58------------------------");
+        WashingMachine washingMachine = new WashingMachine();
+        washingMachine.setMode();
+        washingMachine.turnOff();
+        washingMachine.turnOn();
+
+        System.out.println("------------------------59------------------------");
+        WhatsApp WhatsApp = new WhatsApp();
+        WhatsApp.install();
+        WhatsApp.uninstall();
+        WhatsApp.update();
+
+        System.out.println("------------------------60------------------------");
+        GooogleSite google = new GooogleSite();
+        google.load();
+        google.refresh();
+        google.close();
+
+        System.out.println("------------------------61------------------------");
+        TeddyBear teddyBear = new TeddyBear();
+        teddyBear.deliver();
+        teddyBear.wrap();
+        teddyBear.open();
+
+        System.out.println("------------------------62------------------------");
+        DBoss dBoss = new DBoss();
+        dBoss.pause();
+        dBoss.play();
+        dBoss.stop();
+
+        System.out.println("------------------------63------------------------");
+        FootBall football = new FootBall();
+        football.play();
+        football.practice();
+        football.compete();
+
+        System.out.println("------------------------64------------------------");
+        Juice juice = new Juice();
+        juice.pour();
+        juice.sip();
+        juice.finish();
+
+        System.out.println("------------------------65------------------------");
+        CeilingFan ceilingFan = new CeilingFan();
+        ceilingFan.play();
+        ceilingFan.practice();
+        ceilingFan.compete();
+
+        System.out.println("------------------------66------------------------");
+        English english = new English();
+        english.speak();
+        english.write();
+        english.read();
+
+        System.out.println("------------------------67------------------------");
+        HPLaptop hpLaptop = new HPLaptop();
+        hpLaptop.connectToInternet();
+        hpLaptop.powerOn();
+        hpLaptop.powerOff();
+
+        System.out.println("------------------------68------------------------");
+        GoogleDrive googleDrive = new GoogleDrive();
+        googleDrive.uploadFile();
+        googleDrive.downloadFile();
+        googleDrive.deleteFile();
+
+        System.out.println("------------------------69------------------------");
+        Spotify spotify = new Spotify();
+        spotify.playMusic();
+        spotify.repeatTrack();
+        spotify.shufflePlaylist();
+
+        System.out.println("------------------------70------------------------");
+        ChikkuMilkshake chikkuMilkshake = new ChikkuMilkshake();
+        chikkuMilkshake.drink();
+        chikkuMilkshake.prepare();
+        chikkuMilkshake.serve();
+
+        System.out.println("------------------------71------------------------");
+        AmoungUs amoungUs = new AmoungUs();
+        amoungUs.customizeCharacter();
+        amoungUs.joinMultiplayer();
+        amoungUs.sendInGameMessage();
+
+        System.out.println("------------------------72------------------------");
+        Harmonium harmonium = new Harmonium();
+        harmonium.play();
+        harmonium.clean();
+        harmonium.tune();
+
+        System.out.println("------------------------73------------------------");
+        WaterBottle waterBottle = new WaterBottle();
+        waterBottle.clean();
+        waterBottle.fill();
+        waterBottle.drink();
+
+        System.out.println("------------------------74------------------------");
+        ScientificCalci scientificCalci = new ScientificCalci();
+        scientificCalci.modulus();
+        scientificCalci.power();
+        scientificCalci.squareRoot();
+
+        System.out.println("------------------------75------------------------");
+        LetUsRest letUsRest = new LetUsRest();
+        letUsRest.eat();
+        letUsRest.pamper();
+        letUsRest.sleep();
+        letUsRest.relax();
 
     }
 }
