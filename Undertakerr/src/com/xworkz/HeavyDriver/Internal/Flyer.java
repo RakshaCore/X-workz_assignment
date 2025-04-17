@@ -6,5 +6,8 @@ public interface Flyer {
     void land();
 
     void takeOff();
+    default void logFlight() {
+        System.out.println("Logging flight activity...");
+    }
 
 }

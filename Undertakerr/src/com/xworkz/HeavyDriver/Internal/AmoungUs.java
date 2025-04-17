@@ -15,4 +15,8 @@ public class AmoungUs implements MobileGame {
     public void sendInGameMessage() {
         System.out.println("Sending in-game message in Among Us");
     }
+    @Override
+    public void playGame() {
+        System.out.println("Playing the mobile game Among Us");
+    }
 }

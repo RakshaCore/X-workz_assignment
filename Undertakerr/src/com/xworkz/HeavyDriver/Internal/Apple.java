@@ -16,5 +16,9 @@ public class Apple implements Fruit {
     public void getFruitTaste() {
         System.out.println("Sweet");
     }
+    @Override
+    public void getFruitShape() {
+        System.out.println("The apple is round.");
+    }
 
 }

@@ -1,19 +1,23 @@
 package com.xworkz.HeavyDriver.Internal;
 
 public class SalesReport implements ReportGenerator {
-
     @Override
-    public String generateReport() {
-        return "Sales Report: All sales data is accurate.";
+    public void generateReport() {
+        System.out.println("Generating sales report...");
     }
 
     @Override
-    public String generateErrorReport() {
-        return "Sales Report: Error in sales data.";
+    public void generateErrorReport() {
+        System.out.println("Generating sales error report...");
     }
 
     @Override
-    public String generateWarningReport() {
-        return "Sales Report: Warning regarding sales data.";
+    public void generateWarningReport() {
+        System.out.println("Generating sales warning report...");
+    }
+
+    @Override
+    public void generateInfoReport() {
+        System.out.println("Generating sales info report...");
     }
 }

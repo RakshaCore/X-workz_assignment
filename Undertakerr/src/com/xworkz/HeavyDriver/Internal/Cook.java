@@ -6,4 +6,8 @@ public interface Cook {
     void bake();
 
     void grill();
+
+    default void displayCookingSkills() {
+        System.out.println("Displaying cooking skills...");
+    }
 }

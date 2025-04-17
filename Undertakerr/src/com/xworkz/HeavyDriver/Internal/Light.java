@@ -6,4 +6,8 @@ public interface Light {
     void adjustBrightnessAutomatically();
 
     void respondToVoiceCommands();
+
+    default void displayLightStatus() {
+        System.out.println("Displaying light status...");
+    }
 }

@@ -16,4 +16,8 @@ public class Bangalore implements City {
     public void getCityWeather() {
         System.out.println("Bangalore has a moderate climate with mild summers and cool winters.");
     }
+    @Override
+    public void getCityPopulation() {
+        System.out.println("Bangalore has a population of over 12 million people.");
+    }
 }

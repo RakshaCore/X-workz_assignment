@@ -15,5 +15,9 @@ public class EmailNotification implements NotificationSender {
     public void cancelNotification() {
         System.out.println("Cancelling email notification...");
     }
+    @Override
+    public void logNotification() {
+        System.out.println("Logging email notification...");
+    }
 
 }

@@ -15,4 +15,8 @@ public class CabService implements TransportService{
     public void track() {
         System.out.println("Tracking the cab's location...");
     }
+    @Override
+    public void logTransport() {
+        System.out.println("Logging cab service activity...");
+    }
 }

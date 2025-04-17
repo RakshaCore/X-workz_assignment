@@ -15,4 +15,8 @@ public class LightSwitch implements Switch {
     public void check() {
         System.out.println("Checking the light status");
     }
+    @Override
+    public void displaySwitchStatus() {
+        System.out.println("Displaying light switch status with default method...");
+    }
 }

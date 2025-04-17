@@ -5,4 +5,7 @@ public interface Appliance {
     void turnOff();
     void setMode();
 
+    default void reset() {
+        System.out.println("Appliance is reset to default settings.");
+    }
 }

@@ -15,4 +15,8 @@ public class TeddyBear implements Gift{
     public void open() {
         System.out.println("Opening the teddy bear");
     }
+    @Override
+    public void thankYou() {
+        System.out.println("Thank you for the teddy bear!");
+    }
 }

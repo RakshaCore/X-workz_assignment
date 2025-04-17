@@ -16,6 +16,10 @@ public class JobExecutor implements TaskRunner
     public void pauseTask() {
         System.out.println("Pausing task...");
     }
+    @Override
+    public void logTask() {
+        System.out.println("Logging task in JobExecutor...");
+    }
 
 
 }

@@ -6,4 +6,7 @@ public interface Switch {
     void off();
 
     void check();
+    default void displaySwitchStatus() {
+        System.out.println("Displaying switch status...");
+    }
 }

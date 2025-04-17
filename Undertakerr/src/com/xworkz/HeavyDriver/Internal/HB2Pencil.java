@@ -18,4 +18,8 @@ public class HB2Pencil implements Pencil{
         System.out.println("Sharpening HB2 pencil");
 
     }
+    @Override
+    public void write() {
+        System.out.println("Writing with HB2 pencil");
+    }
 }

@@ -15,4 +15,8 @@ public class BookReader implements Writer {
     public void publish() {
         System.out.println("The book reader can publish.");
     }
+    @Override
+    public void proofread() {
+        System.out.println("The book reader can proofread.");
+    }
 }

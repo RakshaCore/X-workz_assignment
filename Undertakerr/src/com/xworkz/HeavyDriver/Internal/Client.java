@@ -15,4 +15,9 @@ public class Client implements Processor{
     public void manage() {
         System.out.println("Managing resources...");
     }
+    @Override
+    public void logProcess() {
+        System.out.println("Logging client process...");
+    }
+
 }

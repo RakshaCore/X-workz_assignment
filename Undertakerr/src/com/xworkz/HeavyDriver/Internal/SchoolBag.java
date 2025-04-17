@@ -16,5 +16,9 @@ public class SchoolBag implements Bag {
     public void changeZip() {
         System.out.println("Changing the zip of the school bag");
     }
+    @Override
+    public void displayBagStatus() {
+        System.out.println("Displaying bag status with default method...");
+    }
 
 }

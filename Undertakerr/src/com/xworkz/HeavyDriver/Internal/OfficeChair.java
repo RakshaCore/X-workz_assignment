@@ -15,4 +15,8 @@ public class OfficeChair implements Chair {
     public void adjustHeight() {
         System.out.println("The office chair height can be adjusted.");
     }
+    @Override
+    public void recline() {
+        System.out.println("The office chair can recline.");
+    }
 }

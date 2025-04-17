@@ -15,4 +15,8 @@ public class StudentResponds implements Responder{
     public void reject() {
         System.out.println("Student is rejecting");
     }
+    @Override
+    public void logResponse() {
+        System.out.println("Logging student response activity...");
+    }
 }

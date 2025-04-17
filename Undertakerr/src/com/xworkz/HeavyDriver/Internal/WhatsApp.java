@@ -16,4 +16,9 @@ public class WhatsApp implements MobileApp {
     public void update() {
         System.out.println("WhatsApp is updated.");
     }
+    @Override
+    public void launch() {
+        System.out.println("WhatsApp is launched.");
+    }
+
 }

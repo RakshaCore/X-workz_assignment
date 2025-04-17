@@ -6,4 +6,9 @@ public interface Box {
     void close();
 
     void lock();
+
+    default void displayBoxStatus() {
+        System.out.println("Displaying box status...");
+    }
+
 }

@@ -15,4 +15,8 @@ public class LocalFileManager implements FileManager {
     public void deleteFile() {
         System.out.println("Deleting file from local storage...");
     }
+    @Override
+    public void logFileOperation() {
+        System.out.println("Logging local file operation...");
+    }
 }

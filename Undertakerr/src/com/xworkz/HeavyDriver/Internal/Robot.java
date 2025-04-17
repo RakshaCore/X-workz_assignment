@@ -15,4 +15,8 @@ public class Robot implements Analyzer{
     public void report() {
         System.out.println("Reporting findings...");
     }
+    @Override
+    public void logAnalysis() {
+        System.out.println("Logging robot analysis...");
+    }
 }

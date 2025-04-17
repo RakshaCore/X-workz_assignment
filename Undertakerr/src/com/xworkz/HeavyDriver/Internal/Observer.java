@@ -4,4 +4,7 @@ public interface Observer {
     void update();
     void notifyObservers();
     void registerObserver();
+    default void logUpdate() {
+        System.out.println("Logging update activity...");
+    }
 }

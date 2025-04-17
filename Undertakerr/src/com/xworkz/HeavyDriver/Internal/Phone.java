@@ -15,4 +15,8 @@ public class Phone implements Device {
     public void reset() {
         System.out.println("Phone is resetting.");
     }
+    @Override
+    public void connectToWiFi() {
+        System.out.println("Phone is connecting to WiFi.");
+    }
 }

@@ -7,4 +7,8 @@ public interface DocumentParser {
 
     void extractDataFromDocument();
 
+    default  void displayDocument() {
+        System.out.println("Displaying document...");
+    }
+
 }

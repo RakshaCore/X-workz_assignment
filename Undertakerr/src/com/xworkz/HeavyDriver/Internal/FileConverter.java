@@ -6,4 +6,7 @@ public interface FileConverter {
     void convertToWord();
 
     void convertToExcel();
+    default void convert() {
+        System.out.println("Converting file to default format...");
+    }
 }

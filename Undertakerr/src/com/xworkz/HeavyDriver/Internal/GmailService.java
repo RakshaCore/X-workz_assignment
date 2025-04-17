@@ -16,4 +16,8 @@ public class GmailService implements EmailService {
     public void deleteEmail() {
         System.out.println("Deleting email using Gmail service...");
     }
+    @Override
+    public void logEmail() {
+        System.out.println("Logging email using Gmail service...");
+    }
 }

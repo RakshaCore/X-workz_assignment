@@ -16,4 +16,8 @@ public class FileLogger implements Logger {
     public void logWarning() {
         System.out.println("Logging warning to file...");
     }
+    @Override
+    public void logInfo() {
+        System.out.println("Logging info to file...");
+    }
 }

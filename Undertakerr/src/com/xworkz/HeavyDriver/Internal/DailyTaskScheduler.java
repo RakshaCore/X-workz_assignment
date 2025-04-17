@@ -16,4 +16,8 @@ public class DailyTaskScheduler implements Scheduler {
     public void cancel() {
         System.out.println("Cancelling daily tasks...");
     }
+    @Override
+    public void logSchedule() {
+        System.out.println("Logging daily schedule...");
+    }
 }

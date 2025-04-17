@@ -16,4 +16,8 @@ public class MouseClickListener implements EventListener {
     public void onWarning() {
         System.out.println("Mouse click warning!");
     }
+    @Override
+    public void onInfo() {
+        System.out.println("Mouse click info!");
+    }
 }

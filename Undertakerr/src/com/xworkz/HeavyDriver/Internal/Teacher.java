@@ -15,4 +15,9 @@ public class Teacher implements Communicator{
     public void receiveMessage() {
         System.out.println("Teacher is receiving a message");
     }
+    @Override
+    public void logCommunication() {
+        System.out.println("Logging teacher communication...");
+    }
+
 }

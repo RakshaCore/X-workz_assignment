@@ -15,4 +15,8 @@ public class MovieRecommender implements RecommendationEngine {
     public void providePersonalizedRecommendations() {
         System.out.println("Providing personalized movie recommendations.");
     }
+    @Override
+    public void recommend() {
+        System.out.println("Recommending movies with default method.");
+    }
 }

@@ -6,4 +6,7 @@ public interface Fruit{
     void getFruitColor();
 
     void getFruitTaste();
+    default void getFruitShape() {
+        System.out.println("The fruit is in a specific shape.");
+    }
 }

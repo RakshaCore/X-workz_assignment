@@ -18,4 +18,9 @@ public class BlackPen implements  Pen{
         System.out.println("Refilling black pen");
 
     }
+    @Override
+    public void clean() {
+        System.out.println("Cleaning black pen");
+    }
+
 }

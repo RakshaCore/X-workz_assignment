@@ -16,4 +16,9 @@ public class WaterBottle implements Bottle
     public void clean() {
         System.out.println("Cleaning the water bottle");
     }
+
+    @Override
+    public void store() {
+        System.out.println("Storing the water bottle");
+    }
 }

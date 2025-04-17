@@ -16,4 +16,8 @@ Appliance {
     public void setMode() {
         System.out.println("Washing machine mode is set.");
     }
+    @Override
+    public void reset() {
+        System.out.println("Washing machine is reset to default settings.");
+    }
 }

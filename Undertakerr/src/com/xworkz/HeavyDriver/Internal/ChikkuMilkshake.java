@@ -16,4 +16,8 @@ public class ChikkuMilkshake implements MillkShake {
     public void drink() {
         System.out.println("Drinking Chikku Milkshake...");
     }
+    @Override
+    public void enjoy() {
+        System.out.println("Enjoying Chikku Milkshake!");
+    }
 }

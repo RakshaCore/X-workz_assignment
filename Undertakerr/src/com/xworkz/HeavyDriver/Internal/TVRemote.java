@@ -15,4 +15,8 @@ public class TVRemote implements Remote {
     public void check() {
         System.out.println("Checking TV Remote.");
     }
+    @Override
+    public void displayRemoteStatus() {
+        System.out.println("Displaying TV remote status with default method...");
+    }
 }

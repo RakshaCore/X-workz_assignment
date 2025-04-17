@@ -5,4 +5,8 @@ public interface Rest {
     void eat();
     void relax();
     void pamper();
+    default void meditate()
+    {
+        System.out.println("Meditating");
+    }
 }

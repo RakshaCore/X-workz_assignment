@@ -6,5 +6,8 @@ public interface Laptop {
     void powerOff();
 
     void connectToInternet();
+    default void runDiagnostics() {
+        System.out.println("Running diagnostics on the laptop...");
+    }
 }
 

@@ -16,4 +16,8 @@ public class Cat implements AnimalSound {
     public void sleep() {
         System.out.println("Cat is sleeping");
     }
+    @Override
+    public void displayAnimalSound() {
+        System.out.println("Displaying cat sound...");
+    }
 }

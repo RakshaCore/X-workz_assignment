@@ -15,4 +15,8 @@ public class Juice implements  Drink{
     public void finish() {
         System.out.println("Finishing juice...");
     }
+    @Override
+    public void serve() {
+        System.out.println("Serving juice...");
+    }
 }

@@ -16,5 +16,10 @@ public class GooogleSite implements Website {
     public void close() {
         System.out.println("Closing Google site...");
     }
+    @Override
+    public void bookmark() {
+        System.out.println("Bookmarking Google site...");
+    }
+
 
 }

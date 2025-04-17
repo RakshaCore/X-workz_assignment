@@ -14,4 +14,9 @@ public class XmlDocumentParser implements DocumentParser {
     public void extractDataFromDocument() {
         System.out.println("Extracting data from XML document...");
     }
+
+    @Override
+    public void displayDocument() {
+        System.out.println("Displaying XML document...");
+    }
 }

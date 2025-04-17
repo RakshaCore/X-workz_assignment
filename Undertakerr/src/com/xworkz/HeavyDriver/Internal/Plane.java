@@ -15,4 +15,8 @@ public class Plane implements Flyer{
     public void takeOff() {
         System.out.println("Plane is taking off");
     }
+    @Override
+    public void logFlight() {
+        System.out.println("Logging plane flight activity...");
+    }
 }

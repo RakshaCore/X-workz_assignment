@@ -6,4 +6,8 @@ public interface CompressionTool {
     void decompress();
 
     void merge();
+
+    default void logCompression() {
+        System.out.println("Logging compression activity...");
+    }
 }

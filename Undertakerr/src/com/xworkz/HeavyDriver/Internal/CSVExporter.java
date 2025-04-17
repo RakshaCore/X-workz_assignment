@@ -15,4 +15,8 @@ public class CSVExporter implements DataExporter {
     public void deleteData() {
         System.out.println("Deleting data in CSV format...");
     }
+    @Override
+    public void logExport() {
+        System.out.println("Logging CSV export...");
+    }
 }

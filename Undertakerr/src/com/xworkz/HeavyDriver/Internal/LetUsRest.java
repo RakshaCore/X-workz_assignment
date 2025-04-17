@@ -21,4 +21,10 @@ public class LetUsRest implements Rest {
     public void pamper() {
         System.out.println("Pampering");
     }
+
+     @Override
+     public void meditate() {
+         System.out.println("Meditating in a specific way");
+     }
+
 }

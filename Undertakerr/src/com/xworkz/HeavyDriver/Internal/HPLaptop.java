@@ -16,4 +16,8 @@ public class HPLaptop implements Laptop {
     public void connectToInternet() {
         System.out.println("HP Laptop is connected to the internet.");
     }
+    @Override
+    public void runDiagnostics() {
+        System.out.println("Running diagnostics on HP Laptop...");
+    }
 }

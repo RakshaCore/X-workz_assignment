@@ -15,4 +15,8 @@ public class Doctor implements Observer {
     public void registerObserver() {
         System.out.println("Doctor is registering the observer");
     }
+    @Override
+    public void logUpdate() {
+        System.out.println("Logging doctor update activity...");
+    }
 }

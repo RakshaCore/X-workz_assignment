@@ -6,4 +6,7 @@ public interface Game {
     void pause();
 
     void stop();
+    default void displayGameStatus() {
+        System.out.println("Displaying game status...");
+    }
 }

@@ -15,4 +15,8 @@ public class ProductSearch implements SearchEngine {
     public void delete() {
         System.out.println("Deleting product from index...");
     }
+    @Override
+    public void logSearch() {
+        System.out.println("Logging product search...");
+    }
 }

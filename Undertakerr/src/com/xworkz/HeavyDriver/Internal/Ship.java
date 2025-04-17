@@ -15,4 +15,8 @@ public class Ship implements Swimmer{
     public void floatOnWater() {
         System.out.println("Ship is floating on water");
     }
+    @Override
+    public void logSwim() {
+        System.out.println("Logging ship swim activity...");
+    }
 }

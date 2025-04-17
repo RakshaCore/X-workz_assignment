@@ -16,4 +16,8 @@ public class Cricketer implements Player {
     public void score() {
         System.out.println("Cricketer has scored");
     }
+    @Override
+    public void displayPlayerStatus() {
+        System.out.println("Displaying cricketer status...");
+    }
 }

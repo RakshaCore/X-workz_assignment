@@ -16,4 +16,8 @@ public class SpringInjector implements DependencyInjector {
     public void manageDependencies() {
         System.out.println("Managing dependencies using Spring framework.");
     }
+    @Override
+    public void logDependencies() {
+        System.out.println("Logging dependencies using Spring framework.");
+    }
 }

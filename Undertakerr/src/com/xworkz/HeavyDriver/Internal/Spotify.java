@@ -16,4 +16,8 @@ public class Spotify implements MusicPlayer {
     public void repeatTrack() {
         System.out.println("Repeating track on Spotify");
     }
+    @Override
+    public void stopMusic() {
+        System.out.println("Stopping music on Spotify");
+    }
 }

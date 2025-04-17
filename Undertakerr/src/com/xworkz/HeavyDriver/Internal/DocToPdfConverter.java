@@ -15,5 +15,9 @@ public class DocToPdfConverter implements FileConverter {
     public void convertToExcel() {
         System.out.println("Converting document to Excel...");
     }
+    @Override
+    public void convert() {
+        System.out.println("Converting document to default format...");
+    }
 
 }

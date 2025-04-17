@@ -16,4 +16,9 @@ public class Carrot implements Vegetable {
     public void getVegetableTaste() {
         System.out.println("Sweet");
     }
+    @Override
+    public void getVegetableShape() {
+        System.out.println("The carrot is long and cylindrical.");
+    }
+
 }

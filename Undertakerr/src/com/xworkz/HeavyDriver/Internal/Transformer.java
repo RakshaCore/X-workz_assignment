@@ -7,4 +7,8 @@ public interface Transformer {
     void upgrade();
 
     void optimize();
+    default void logTransformation() {
+        System.out.println("Logging transformation...");
+    }
+
 }

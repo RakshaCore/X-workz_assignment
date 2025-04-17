@@ -7,4 +7,8 @@ public interface AnimalSound {
 
     void sleep();
 
+    default void displayAnimalSound() {
+        System.out.println("Displaying animal sound...");
+    }
+
 }

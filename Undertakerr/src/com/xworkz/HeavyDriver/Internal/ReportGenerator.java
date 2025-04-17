@@ -1,7 +1,11 @@
 package com.xworkz.HeavyDriver.Internal;
 
 public interface ReportGenerator {
-    String generateReport();
-    String generateErrorReport();
-    String generateWarningReport();
+    void generateReport();
+    void generateErrorReport();
+    void generateWarningReport();
+
+    default void generateInfoReport() {
+        System.out.println("Generating info report...");
+    }
 }

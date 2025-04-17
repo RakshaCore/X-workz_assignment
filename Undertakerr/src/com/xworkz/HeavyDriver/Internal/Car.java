@@ -15,4 +15,8 @@ public class Car implements Engine {
     public void check() {
         System.out.println("Checking the car");
     }
+    @Override
+    public void logEngine() {
+        System.out.println("Logging car engine activity...");
+    }
 }

@@ -19,4 +19,9 @@ public class SteeringWheel implements  VehiclePart{
         System.out.println("Plastic");
 
     }
+    @Override
+    public void getPartFunction() {
+        System.out.println("The steering wheel is used to control the direction of the vehicle.");
+    }
+
 }

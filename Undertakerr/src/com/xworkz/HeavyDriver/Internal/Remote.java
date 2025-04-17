@@ -6,4 +6,8 @@ public interface Remote {
     void stop();
 
     void check();
+    default void displayRemoteStatus() {
+        System.out.println("Displaying remote status...");
+    }
+
 }

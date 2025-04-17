@@ -15,4 +15,9 @@ public class Chef implements Cook  {
     public void grill() {
         System.out.println("Chef is grilling.");
     }
+    @Override
+    public void displayCookingSkills() {
+        System.out.println("Displaying chef's cooking skills...");
+    }
+
 }

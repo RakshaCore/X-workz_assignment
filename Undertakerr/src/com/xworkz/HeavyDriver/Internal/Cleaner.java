@@ -6,4 +6,8 @@ public interface Cleaner {
     void wash();
 
     void sanitize();
+
+    default void displayCleanerStatus() {
+        System.out.println("Displaying cleaner status...");
+    }
 }

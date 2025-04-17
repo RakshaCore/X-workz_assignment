@@ -10,5 +10,8 @@ public interface Classroom {
     {
         System.out.println("Studying in the classroom");
     }
+    default void logClassroom() {
+        System.out.println("Logging classroom activity...");
+    }
 
 }

@@ -16,4 +16,8 @@ public class GoogleDrive implements CloudStorage {
     public void deleteFile() {
         System.out.println("Deleting file from Google Drive...");
     }
+    @Override
+    public void shareFile() {
+        System.out.println("Sharing file from Google Drive...");
+    }
 }

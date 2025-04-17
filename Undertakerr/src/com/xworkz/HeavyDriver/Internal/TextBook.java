@@ -15,4 +15,9 @@ public class TextBook implements Book{
     public void publish() {
         System.out.println("Publishing the textbook");
     }
+    @Override
+    public void bookmark() {
+        System.out.println("Bookmarking the textbook");
+    }
+
 }

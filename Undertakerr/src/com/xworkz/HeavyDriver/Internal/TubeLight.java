@@ -15,4 +15,8 @@ public class TubeLight implements Light{
     public void respondToVoiceCommands() {
         System.out.println("Responding to voice commands...");
     }
+    @Override
+    public void displayLightStatus() {
+        System.out.println("Displaying light status with default method...");
+    }
 }

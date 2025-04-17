@@ -6,4 +6,7 @@ public interface FileManager {
     void downloadFile();
 
     void deleteFile();
+    default void logFileOperation() {
+        System.out.println("Logging file operation...");
+    }
 }

@@ -7,4 +7,7 @@ public interface VehiclePart {
 
     void getPartMaterial();
 
+    default void getPartFunction() {
+        System.out.println("The vehicle part has a specific function.");
+    }
 }

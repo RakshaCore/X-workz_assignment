@@ -18,4 +18,9 @@ public class Harmonium implements Instrument{
         System.out.println("Cleaning the harmonium");
 
     }
+    @Override
+    public void repair() {
+        System.out.println("Repairing the harmonium");
+    }
+
 }

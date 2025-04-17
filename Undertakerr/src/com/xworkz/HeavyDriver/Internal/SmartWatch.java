@@ -15,4 +15,8 @@ public class SmartWatch implements Watch{
     public void trackSteps() {
         System.out.println("The smartwatch tracks steps.");
     }
+    @Override
+    public void connectToPhone() {
+        System.out.println("The smartwatch connects to the phone.");
+    }
 }

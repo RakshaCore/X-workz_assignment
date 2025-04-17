@@ -6,4 +6,7 @@ public interface RecommendationEngine {
     void analyzeUserBehavior();
 
     void providePersonalizedRecommendations();
+    default void recommend() {
+        System.out.println("Recommending products based on user preferences.");
+    }
 }

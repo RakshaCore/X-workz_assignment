@@ -15,4 +15,8 @@ public class ZipCompressor implements CompressionTool {
     public void merge() {
         System.out.println("Merging files using Zip compression...");
     }
+    @Override
+    public void logCompression() {
+        System.out.println("Logging Zip compression activity...");
+    }
 }

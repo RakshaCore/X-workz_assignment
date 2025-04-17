@@ -15,4 +15,8 @@ public class ThumbnailGenerator implements ImageProcessor{
     public void filterImage() {
         System.out.println("Applying filter to image for thumbnail...");
     }
+    @Override
+    public void displayImage() {
+        System.out.println("Displaying thumbnail image...");
+    }
 }

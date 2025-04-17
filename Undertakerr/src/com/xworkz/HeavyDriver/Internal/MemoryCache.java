@@ -16,4 +16,9 @@ public class MemoryCache implements Cache {
     public void removeCachedData() {
         System.out.println("Removing cached data from memory...");
     }
+
+    @Override
+    public void logCache() {
+        System.out.println("Logging memory cache...");
+    }
 }

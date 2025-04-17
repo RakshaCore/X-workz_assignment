@@ -5,5 +5,8 @@ public interface MusicPlayer {
     void shufflePlaylist();
 
     void repeatTrack();
+    default void stopMusic() {
+        System.out.println("Stopping music");
+    }
 
 }

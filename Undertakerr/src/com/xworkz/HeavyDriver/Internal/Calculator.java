@@ -6,4 +6,8 @@ public interface Calculator {
     void power();
 
     void modulus();
+
+    default void add() {
+        System.out.println("Addition method");
+    }
 }

@@ -16,4 +16,8 @@ public class MobileCharger implements Charger {
     public void wirelessCharge() {
         System.out.println("Wireless charging device...");
     }
+    @Override
+    public void charge() {
+        System.out.println("Charging device with default method...");
+    }
 }

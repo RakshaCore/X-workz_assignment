@@ -15,4 +15,8 @@ public class ShoeBox implements Box{
     public void lock() {
         System.out.println("Locking the shoe box");
     }
+    @Override
+    public void displayBoxStatus() {
+        System.out.println("Displaying box status with default method...");
+    }
 }

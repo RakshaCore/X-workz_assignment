@@ -15,5 +15,9 @@ public class WallClock implements Clock {
     public void snoozeAlarm() {
         System.out.println("Snoozing alarm on wall clock...");
     }
+    @Override
+    public void displayTime() {
+        System.out.println("Displaying time on wall clock with default method...");
+    }
 
 }

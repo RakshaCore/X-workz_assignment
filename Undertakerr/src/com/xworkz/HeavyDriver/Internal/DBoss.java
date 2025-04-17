@@ -15,4 +15,8 @@ public class DBoss implements Media{
     public void stop() {
         System.out.println("Stopping media");
     }
+    @Override
+    public void rewind() {
+        System.out.println("Rewinding media");
+    }
 }

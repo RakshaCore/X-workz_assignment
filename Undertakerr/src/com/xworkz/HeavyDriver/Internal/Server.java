@@ -15,4 +15,8 @@ public class Server implements Tracker{
     public void log() {
         System.out.println("Logging server events...");
     }
+    @Override
+    public void logTracking() {
+        System.out.println("Logging server tracking activity...");
+    }
 }

@@ -16,5 +16,9 @@ public class Puzzle implements Game {
     public void stop() {
         System.out.println("Puzzle is stopped");
     }
+    @Override
+    public void displayGameStatus() {
+        System.out.println("Displaying puzzle game status with default method...");
+    }
 
 }

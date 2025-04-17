@@ -10,5 +10,9 @@ public class Student implements Classroom {
     public void learn() {
         System.out.println("Learning in the student class");
     }
+    @Override
+    public void logClassroom() {
+        System.out.println("Logging student activity...");
+    }
 
 }

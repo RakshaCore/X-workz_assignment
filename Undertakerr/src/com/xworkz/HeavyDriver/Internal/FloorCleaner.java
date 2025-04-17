@@ -16,4 +16,9 @@ public class FloorCleaner implements Cleaner {
     public void sanitize() {
         System.out.println("Floor is being sanitized");
     }
+
+    @Override
+    public void displayCleanerStatus() {
+        System.out.println("Displaying cleaner status with default method...");
+    }
 }

@@ -7,4 +7,8 @@ public interface City {
     void getCityAttractions();
 
     void getCityWeather();
+
+    default void getCityPopulation() {
+        System.out.println("The city has a large population.");
+    }
 }

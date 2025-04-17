@@ -15,4 +15,8 @@ public class Animal implements Transformer{
     public void optimize() {
         System.out.println("Optimizing animal performance");
     }
+    @Override
+    public void logTransformation() {
+        System.out.println("Logging animal transformation...");
+    }
 }

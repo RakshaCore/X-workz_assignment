@@ -16,4 +16,8 @@ public class InputValidator implements Validator {
     public void validateInput() {
         System.out.println("Validating input data...");
     }
+    @Override
+    public void logValidation() {
+        System.out.println("Logging input validation...");
+    }
 }

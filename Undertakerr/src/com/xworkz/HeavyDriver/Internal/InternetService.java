@@ -7,5 +7,7 @@ public interface InternetService {
 
     void checkConnectionSpeed();
 
-
+    default void getServiceProvider() {
+        System.out.println("The internet service provider is XYZ.");
+    }
 }

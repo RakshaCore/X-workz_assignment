@@ -18,6 +18,10 @@ public class ScientificCalci implements  Calculator{
         System.out.println("Modulus method");
 
     }
+    @Override
+    public void add() {
+        System.out.println("Addition method in ScientificCalci");
+    }
 
 
 }

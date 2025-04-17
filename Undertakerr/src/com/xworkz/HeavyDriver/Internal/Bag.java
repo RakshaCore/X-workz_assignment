@@ -6,4 +6,8 @@ public interface Bag {
     void close();
 
     void changeZip();
+
+    default void displayBagStatus() {
+        System.out.println("Displaying bag status...");
+    }
 }

@@ -15,4 +15,8 @@ public class Bus implements Vehicle {
     public void check() {
         System.out.println("Checking bus");
     }
+    @Override
+    public void logVehicle() {
+        System.out.println("Logging bus activity...");
+    }
 }

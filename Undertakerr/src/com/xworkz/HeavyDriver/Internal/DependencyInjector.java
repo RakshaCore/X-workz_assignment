@@ -6,4 +6,8 @@ public interface DependencyInjector {
     void configureDependencies();
 
     void manageDependencies();
+
+    default void logDependencies() {
+        System.out.println("Logging dependencies...");
+    }
 }

@@ -6,5 +6,8 @@ public interface Communicator {
     void sendMessage();
 
     void receiveMessage();
+    default void logCommunication() {
+        System.out.println("Logging communication...");
+    }
 
 }

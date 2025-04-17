@@ -16,6 +16,10 @@ public class FootBall implements Sport {
     public void compete() {
         System.out.println("Competing in football");
     }
+    @Override
+    public void show() {
+        System.out.println("Showing football");
+    }
 
 
 }

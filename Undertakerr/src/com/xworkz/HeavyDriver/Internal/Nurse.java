@@ -15,4 +15,8 @@ public class Nurse implements Renderer{
     public void refresh() {
         System.out.println("Nurse is refreshing");
     }
+    @Override
+    public void logRender() {
+        System.out.println("Logging nurse render activity...");
+    }
 }

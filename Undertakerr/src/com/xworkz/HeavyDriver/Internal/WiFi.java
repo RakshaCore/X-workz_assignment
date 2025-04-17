@@ -16,6 +16,10 @@ public class WiFi implements InternetService {
     public void checkConnectionSpeed() {
         System.out.println("Checking WiFi connection speed...");
     }
+    @Override
+    public void getServiceProvider() {
+        System.out.println("The WiFi service provider is ABC.");
+    }
 
 
 }

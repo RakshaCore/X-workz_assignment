@@ -6,4 +6,7 @@ public interface Device {
     void powerOff();
 
     void reset();
+    default void connectToWiFi() {
+        System.out.println("Connecting to WiFi...");
+    }
 }

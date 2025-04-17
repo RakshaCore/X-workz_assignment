@@ -15,4 +15,10 @@ public class CeilingFan implements Fantype{
     public void compete() {
         System.out.println("CeilingFan is competing");
     }
+
+    @Override
+    public void show() {
+        System.out.println("CeilingFan is showing");
+    }
+
 }

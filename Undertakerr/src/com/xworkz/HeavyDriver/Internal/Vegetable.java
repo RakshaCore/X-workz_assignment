@@ -6,4 +6,7 @@ public interface Vegetable {
     void getVegetableColor();
 
     void getVegetableTaste();
+    default void getVegetableShape() {
+        System.out.println("The vegetable is in a specific shape.");
+    }
 }
