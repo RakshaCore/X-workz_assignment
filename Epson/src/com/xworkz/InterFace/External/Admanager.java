@@ -8,8 +8,8 @@ public class Admanager {
     public Admanager(Ad ad) {
         this.ad = ad;
         System.out.println("Running Admanager");
-    }
 
+    }
     public void displayAd() {
         if (ad != null) {
             ad.showAd();
