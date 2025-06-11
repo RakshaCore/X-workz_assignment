@@ -30,8 +30,8 @@
 <center>
     <h1 class="head1"> Report weather details in this portal</h1>
 
-    <h3> Location : ${weatherDTO.location} </h3>
-    <h3> Captured By : ${weatherDTO.captured} </h3>
+    <h3> Location : ${weatherDTO.locationName} </h3>
+    <h3> Captured By : ${weatherDTO.capturedBy} </h3>
     <h3> Temperature : ${weatherDTO.temperature} °C</h3>
     <h3> Recorded Date : ${weatherDTO.recorded} </h3>
 </center>
