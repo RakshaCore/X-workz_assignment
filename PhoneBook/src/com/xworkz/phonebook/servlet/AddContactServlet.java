@@ -19,11 +19,18 @@ public class AddContactServlet extends HttpServlet {
         String phoneNumber = req.getParameter("phoneNumber");
         String email = req.getParameter("email");
 
-        PhoneBookDTO phoneBookDTO = new PhoneBookDTO(fullName, phoneNumber, email);
+        PhoneBookDTO phoneBookDTO = new PhoneBookDTO( fullName, phoneNumber, email);
 
         PhoneBookService phoneBookService = new PhoneBookServiceImpl();
         phoneBookService.validateAndSave(phoneBookDTO);
+    }
 
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String id = req.getParameter("id");
+        int convertedId = Integer.parseInt(id);
+        PhoneBookService phoneBookService = new PhoneBookServiceImpl();
+        phoneBookService.getById(convertedId);
 
     }
 }

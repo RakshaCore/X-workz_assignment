@@ -1,6 +1,8 @@
 package com.xworkz.phonebook.service;
 
 import com.xworkz.phonebook.dto.PhoneBookDTO;
+import com.xworkz.phonebook.repository.PhoneBookRepository;
+import com.xworkz.phonebook.repository.PhoneBookRepositoryImpl;
 
 public class PhoneBookServiceImpl implements PhoneBookService{
     @Override
@@ -25,8 +27,22 @@ public class PhoneBookServiceImpl implements PhoneBookService{
                 System.out.println("Email is invalid");
                 return "Please enter a valid email address!!";
             }
+
+            PhoneBookRepository phoneBookRepository = new PhoneBookRepositoryImpl();
+            phoneBookRepository.save(phoneBookDTO);
+
         }
         return "Form submitted";
 
+    }
+
+    @Override
+    public PhoneBookDTO getById(int id) {
+
+        if (id <= 0) {
+            System.out.println("Invalid ID");
+            return null;
+        }
+        return null;
     }
 }

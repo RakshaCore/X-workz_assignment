@@ -7,7 +7,7 @@ public class PhoneBookDTO implements Serializable {
     String phoneNumber;
     String email;
 
-    public PhoneBookDTO(String fullName, String phoneNumber, String email) {
+    public PhoneBookDTO( String fullName, String phoneNumber, String email) {
         this.fullName = fullName;
         this.phoneNumber = phoneNumber;
         this.email = email;
