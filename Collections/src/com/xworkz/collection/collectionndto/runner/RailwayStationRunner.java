@@ -23,12 +23,7 @@ public class RailwayStationRunner {
         for(RailwayStationDTO stationDTO: railwayStations)
         {
             System.out.println("Station Name:"+stationDTO.getName());
-            System.out.println("State"+stationDTO.getState());
-            System.out.println("Pin Code:"+stationDTO.getCode());
-            System.out.println("Location:"+stationDTO.getLocation());
-            System.out.println("Facilities:"+stationDTO.getFacilities());
-            System.out.println("Opening Date:"+stationDTO.getOpeningDate());
-            System.out.println("Platforms:"+stationDTO.getPlatforms());
+                     System.out.println("Pin Code:"+stationDTO.getCode());
             System.out.println("--------------------------------------------------");
 
         }
